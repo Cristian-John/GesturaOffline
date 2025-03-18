@@ -27,11 +27,13 @@ public class DashboardActivity extends AppCompatActivity {
 
         translateButton = findViewById(R.id.translateButton);
         signLangButton = findViewById(R.id.learnSignLanguageButton);
+        // Norono nababasa mo ba to ang ingay nun sakit sa tenga HAHAHAHAHAHAH ng osu? sorry pre wait lang natin yung meerkat
+        // okay start ko na ba? kaw bahala
 
         translateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(DashboardActivity.this, "TRANSLATE PAGE", Toast.LENGTH_SHORT).show();
+                Toast.makeText(DashboardActivity.this, "Not yet available", Toast.LENGTH_SHORT).show();
             }
         });
 

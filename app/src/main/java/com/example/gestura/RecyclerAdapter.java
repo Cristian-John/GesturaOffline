@@ -1,6 +1,7 @@
 package com.example.gestura;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,13 +13,15 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> implements OnClick {
+public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyViewHolder> {
     Context context;
     ArrayList<ButtonModelClass> arrayList;
+    RecyclerViewInterface recyclerViewInterface;
 
-    public RecyclerAdapter(Context context, ArrayList<ButtonModelClass> arrayList) {
+    public RecyclerAdapter(Context context, ArrayList<ButtonModelClass> arrayList, RecyclerViewInterface recyclerViewInterface) {
         this.context = context;
         this.arrayList = arrayList;
+        this.recyclerViewInterface = recyclerViewInterface;
     }
 
     @NonNull
@@ -27,7 +30,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         LayoutInflater inflater = LayoutInflater.from(context);
         View view = inflater.inflate(R.layout.itemlayout, parent, false);
 
-        return new RecyclerAdapter.MyViewHolder(view);
+        return new RecyclerAdapter.MyViewHolder(view, recyclerViewInterface);
     }
 
     @Override
@@ -41,17 +44,40 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
         return arrayList.size();
     }
 
-    @Override
-    public void onClick() {
-
-    }
 
     public static class MyViewHolder extends RecyclerView.ViewHolder {
         ImageButton imgButton1, imgButton2;
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder(@NonNull View itemView, RecyclerViewInterface recyclerViewInterface) {
             super(itemView);
             imgButton1 = itemView.findViewById(R.id.imageButton1);
             imgButton2 = itemView.findViewById(R.id.imageButton2);
+
+            imgButton1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (recyclerViewInterface != null){
+                        int pos = getAdapterPosition();
+
+                        if (pos != RecyclerView.NO_POSITION){
+                            recyclerViewInterface.onItemClick1(pos);
+                        }
+                    }
+                }
+            });
+
+
+            imgButton2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (recyclerViewInterface != null){
+                        int pos = getAdapterPosition();
+
+                        if (pos != RecyclerView.NO_POSITION){
+                            recyclerViewInterface.onItemClick2(pos);
+                        }
+                    }
+                }
+            });
         }
     }
 }

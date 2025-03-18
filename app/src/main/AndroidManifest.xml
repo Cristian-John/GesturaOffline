@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Gestura"
         tools:targetApi="31">
         <activity
+            android:name=".AnimalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NumbersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ColorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodsAndDrinksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GreetingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmotionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:exported="false" />
+        <activity
             android:name=".LearningModuleActivity"
             android:exported="false" />
         <activity
