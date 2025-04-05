@@ -56,61 +56,61 @@ public class AlphabetActivity extends AppCompatActivity implements MenuRecyclerI
         String title = "";
         switch (pos){
             case 0:
-                url = ""; title = "A"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784614/-A_fcr98i.mp4"; title = "A"; break;
             case 1:
-                url = ""; title = "B"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784636/-B_zahwbd.mp4"; title = "B"; break;
             case 2:
-                url = ""; title = "C"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784623/-C_y1yqta.mp4"; title = "C"; break;
             case 3:
-                url = ""; title = "D"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784674/-D_iflpyr.mp4"; title = "D"; break;
             case 4:
-                url = ""; title = "E"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784664/-E_dvkb5n.mp4"; title = "E"; break;
             case 5:
-                url = ""; title = "F"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784799/-F_ubyniv.mp4"; title = "F"; break;
             case 6:
-                url = ""; title = "G"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784662/-G_rbqnuy.mp4"; title = "G"; break;
             case 7:
-                url = ""; title = "H"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784729/-H_lmyeqt.mp4"; title = "H"; break;
             case 8:
-                url = ""; title = "I"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784847/-I_epuxl2.mp4"; title = "I"; break;
             case 9:
-                url = ""; title = "J"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784693/-J_xddehk.mp4"; title = "J"; break;
             case 10:
-                url = ""; title = "K"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784707/-K_pmetvg.mp4"; title = "K"; break;
             case 11:
-                url = ""; title = "L"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784745/-L_d9t8ou.mp4"; title = "L"; break;
             case 12:
-                url = ""; title = "M"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784757/-M_ofu3gk.mp4"; title = "M"; break;
             case 13:
-                url = ""; title = "N"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784847/-N_fpxwrj.mp4"; title = "N"; break;
             case 14:
-                url = ""; title = "Ñ"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784763/%C3%91_stcx6q.mp4"; title = "Ñ"; break;
             case 15:
-                url = ""; title = "Ng"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784792/Ng_qvzv23.mp4"; title = "Ng"; break;
             case 16:
-                url = ""; title = "O"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784839/-O_oatslr.mp4"; title = "O"; break;
             case 17:
-                url = ""; title = "P"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784791/-P_wavkvg.mp4"; title = "P"; break;
             case 18:
-                url = ""; title = "Q"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784818/-Q_fsjtc9.mp4"; title = "Q"; break;
             case 19:
-                url = ""; title = "R"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784850/-R_fcbiep.mp4"; title = "R"; break;
             case 20:
-                url = ""; title = "S"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784840/-S_qc72qa.mp4"; title = "S"; break;
             case 21:
-                url = ""; title = "T"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784864/-T_kjcpbh.mp4"; title = "T"; break;
             case 22:
-                url = ""; title = "U"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784860/-U_oqyykg.mp4"; title = "U"; break;
             case 23:
-                url = ""; title = "V"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784604/-V_mxpq3o.mp4"; title = "V"; break;
             case 24:
-                url = ""; title = "W"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784634/-W_aeysc0.mp4"; title = "W"; break;
             case 25:
-                url = ""; title = "X"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784564/-X_t46coe.mp4"; title = "X"; break;
             case 26:
-                url = ""; title = "Y"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784583/-Y_keud8b.mp4"; title = "Y"; break;
             case 27:
-                url = ""; title = "Z"; break;
+                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743784661/-Z_strmmg.mp4"; title = "Z"; break;
             default:
                 Log.d("Warning", "Out of Bounds Exception");
         }
