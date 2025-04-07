@@ -55,43 +55,35 @@ public class AnimalsActivity extends AppCompatActivity implements MenuRecyclerIn
         String title = "";
         switch (pos){
             case 0:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.bear;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743749835/Bear_wkzelh.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.bear;
                 title = "Bear";
                 break;
             case 1:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.bird;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754720/Bird_o6z1yl.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.bird;
                 title = "Bird";
                 break;
             case 2:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.butterfly;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754732/butterfly_wq7rps.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.butterfly;
                 title = "Butterfly";
                 break;
             case 3:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.carabao;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754742/Carabao_hbyagx.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.carabao;
                 title = "Carabao";
                 break;
             case 4:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.dog;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754769/Dog_xxim7b.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.dog;
                 title = "Dog";
                 break;
             case 5:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.duck;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754780/Duck_ubv3rc.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.duck;
                 title = "Duck";
                 break;
             case 6:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.fish;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754789/fish_gbhetw.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.fish;
                 title = "Fish";
                 break;
             case 7:
-                //url = "android.resource://"+getPackageName()+"/"+R.raw.worm;
-                url = "https://res.cloudinary.com/dbkvtunx6/video/upload/v1743754799/worm_zot0br.mp4";
+                url = "android.resource://"+getPackageName()+"/"+R.raw.worm;
                 title = "Worm";
                 break;
             default:
